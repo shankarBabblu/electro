@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {ProductService} from "../../services/product.service";
-import {ProductModelServer, serverResponse} from "../../models/product.model";
-import {CartService} from "../../services/cart.service";
+// import {ProductService} from "../../services/product.service";
+import { ProductService } from 'src/app/services/product.service';
+import {ProductModelServer, serverResponse} from "src/app/models/product.model";
+import {CartService} from "src/app/services/cart.service";
 import {Router} from "@angular/router";
 
 @Component({
