@@ -1,0 +1,1 @@
+export var base_url = 'https://electro-node-pdcl.vercel.app/'
