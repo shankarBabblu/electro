@@ -37,7 +37,12 @@ export class LoginComponent implements OnInit {
       "password" : this.form.value.password
     }
     this.http.post(base_url+url.login.url, body).subscribe(res => {
-      console.log(res)
+      if(res[0] != null){
+        console.log(res)
+      }
+      else{
+        console.log('username or password incorrect')
+      }
     })
 } 
 }
